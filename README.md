@@ -11,7 +11,7 @@ Our experiments consist of two parts of source code:
 <ol> In directory homeview_src, these files are based on the above repo: homeview_generate.py, homeview_params.py, homeview_params_cluster.py, homeview_train.py, homeview_cluster.py with minor modifications to change the network from a VAE to a beta-VAE and to work on our dataset. </ol>
 <ol> In directory homeview_src, data_manager.py is based on on Tensorflow's tutporial at https://www.tensorflow.org/programmers_guide/datasets#decoding_image_data_and_resizing_it </ol>
 <ol> In the same directory, cluster.py is our own work based on scikit-learn tutorial http://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html </ol>
-<ol> Model files are in the models directory. Files with homeview_ld_68_conv_5_id_1060_e_1000 in their names are model for 68 dimensions in the latent layer and files with homeview_ld_168_conv_4_id_1360_e_500 in their names are model for 168 dimensions in the latent layer. </ol>
+<ol> Model files are too massive (10GB) to upload to Canvas and couldn't be upload to Github in time. Thus we omitted them from our source submission. Feel free to request them if you need them for grading or we will upload them once the grading is complete. </ol>
 
 <br />
 
